@@ -1,0 +1,11 @@
+.container{
+    background-color: lightyellow;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.container img{
+    width: 200px;
+    border-radius: 10px;
+}

@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.container .kotak:nth-child(1) {
+    background-color: yellow;
+    width: 20%;
+    border: 3px solid black;
+}
+
+.container .kotak:nth-child(2) {
+    width: 79%;
+    background-color: orange;
+    border: 3px solid black;
+}
+
+.container .isi:nth-child(1){
+    background-color: greenyellow;
+    width: 20%;
+    border: 3px solid black;
+    
+}
+
+.container .isi:nth-child(2) {
+    background-color: grey;
+    width: 59%;
+    border: 3px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.container .isi:nth-child(3) {
+    background-color: aqua;
+    width: 20%;
+    border: 3px solid black;
+}
+
+.kotak{
+    height: 100px;
+}
+
+.isi{
+    height: 600px;
+}
+
+.kotak-bawah{
+    margin-top: 15px;
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+    border: 3px solid black;
+}
